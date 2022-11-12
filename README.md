@@ -15,4 +15,10 @@ console.log("apple")
     - const means constant means we cannot redeclare and cannot change the value
     - let allows us to change the value of the variable but cannot redeclare the variable at ant time
 - there are some reserved keywords which cannot be used to name a variable jsut like any other language
-
+```js
+var a = "apple" // value can be changes as well as redeclared
+let b = "mango" // value can be changes further ahead
+const c = "banana" // value doesnt change
+var a = "kiwi"
+b = "watermelon"
+```
