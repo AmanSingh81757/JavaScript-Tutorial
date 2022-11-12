@@ -1,14 +1,14 @@
 # JavaScript-Tutorial
-## this tutorial follows the course from CWH
+## This tutorial follows the course from CWH
 
 
-## printing to console
-- basic printing the stuff on console:
+## PRINTING TO CONSOLE
+- Basic printing the stuff on console:
 ```js
 console.log("apple")
 ```
 
-## variables
+## VARIABLES
 - a variable is a storage to contain data such as numbers strings etc
 - We can create a variable using 3 types var, let, const
     - var means variable means we can change the value assigned and redeclare the variable any time
