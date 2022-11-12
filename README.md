@@ -77,6 +77,7 @@ console.log( a === c )
 console.log( a == c )
 ```
 > false
+
 > true
 
 ## CONDITIONAL STATEMENTS
