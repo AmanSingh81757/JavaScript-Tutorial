@@ -70,3 +70,19 @@ let c = "5"
 console.log( a === c ) // this give false as data type are not same
 console.log( a == c ) // this gives true as both are 5
 ```
+
+## CONDITIONAL STATEMENTS
+- this expression executes only if the given condition is satisfied
+- 3 types of conditionals :  if , if else , else
+    ```js
+    let a = 5
+    if( a < 10>){
+        console.log("a is less than 10")
+    }
+    else if ( a > 10) {
+        console.log("a is greater than 10")
+    }
+    else{
+        console.log("a is 10")
+    }
+    ```
