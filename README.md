@@ -7,6 +7,7 @@
 ```js
 console.log("apple")
 ```
+>apple
 
 ## VARIABLES
 - a variable is a storage to contain data such as numbers strings etc
@@ -36,9 +37,11 @@ let g = undefined
 ```
 - the typeof method gives us the data type of our variable
 ```js
-console.log(typeof(a)) // this will give null
-conosle.log(typeof(d)) // this will give bigint
+console.log(typeof(a))
+conosle.log(typeof(d))
 ```
+>null
+>bigint
 
 ## NON PRIMITIVE DATA TYPES / OBJECTS
 - objects are non primitive data types it doesn't have a specific data type
@@ -52,6 +55,7 @@ const obj = {
 // to access elements
 console,log(obj["name"])
 ```
+> Aman
 
 ## OPERATORS & EXPRESSION
 - any code written in js is called an expression
@@ -65,24 +69,31 @@ console,log(obj["name"])
 let a = 5
 let b = 7
 console.log(a+b) // this gives 12
-
-let c = "5"
-console.log( a === c ) // this give false as data type are not same
-console.log( a == c ) // this gives true as both are 5
 ```
+> 12
+```js
+let c = "5"
+console.log( a === c )
+console.log( a == c )
+```
+> false
+>true
 
 ## CONDITIONAL STATEMENTS
 - this expression executes only if the given condition is satisfied
 - 3 types of conditionals :  if , if else , else
-    ```js
-    let a = 5
-    if( a < 10>){
-        console.log("a is less than 10")
-    }
-    else if ( a > 10) {
-        console.log("a is greater than 10")
-    }
-    else{
-        console.log("a is 10")
-    }
-    ```
+```js
+let a = 5
+if( a < 10>){
+    console.log("a is less than 10")
+}
+else if ( a > 10) {
+    console.log("a is greater than 10")
+}
+else{
+    console.log("a is 10")
+}
+```
+> a is less than 10
+
+## 
