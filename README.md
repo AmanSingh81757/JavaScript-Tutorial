@@ -114,6 +114,7 @@ switch (a) {
 > a is 10
 ### TERNARY OPERATOR
 - single lines conditional statement
+- syntax -> (condition)?(statement if condition true):(statement if condition flase)
 ```js
 let marks = 10
 (marks>5)?console.log("more than 5"):console.log("less than 5")
@@ -127,8 +128,41 @@ for(let i = 0; i < 5 ; i++){
     console.log(i)
 }
 ```
-> 0
-> 1
-> 2
-> 3
-> 4
+> 0 1 2 3 4
+
+- for in and for each loops are similar to for loops but we can use it to iterate in a data type like array or object
+```javascript
+const a = [1,2,3,4]
+for(let item in a){
+    console.log(a[item])
+}
+for(let i of a){
+    console.log(i)
+}
+```
+- they both have same output below
+> 1 2 3 4
+
+## WHILE LOOPS
+- while loop only takes 1 condition and if it is true the statement under the loop gets executed
+```js
+let a = 5
+while(a > 0){
+    console.log(a)
+    a--
+}
+```
+> 5 4 3 2 1
+
+- A do while loop executes the statement at least 1 time without checking the condition
+```js
+let a = 5
+do{
+    console.log(a)
+}
+while(a > 6){
+    console.log(a)
+    a--
+}
+```
+> 5
