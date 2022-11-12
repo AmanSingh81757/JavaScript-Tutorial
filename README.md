@@ -77,11 +77,11 @@ console.log( a === c )
 console.log( a == c )
 ```
 > false
->true
+> true
 
 ## CONDITIONAL STATEMENTS
 - this expression executes only if the given condition is satisfied
-- 3 types of conditionals :  if , if else , else
+- 4 types of conditionals :  if , if else , else , switch
 ```js
 let a = 5
 if( a < 10>){
@@ -96,4 +96,27 @@ else{
 ```
 > a is less than 10
 
-## 
+
+```js
+let a = 19
+switch (a) {
+    case 5:
+        console.log("a is 5")
+        break
+    case 10:
+        conosle.log("a is 10")
+        break
+    default:
+        conosle.log("a is not 5 or 10")
+}
+```
+> a is 10
+### TERNARY OPERATOR
+- single lines conditional statement
+```js
+let marks = 10
+(marks>5)?console.log("more than 5"):console.log("less than 5")
+```
+> more than 5
+
+##
