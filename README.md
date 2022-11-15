@@ -217,4 +217,19 @@ console.log('my favourite fruit is ${name}')
 
 ## ARRAYS
 - array is a data structure which holds multiple value even of different data types
+- arrays are essentially objects in javascript
 ```js
+const arr = [1,2,3,4,5,6]
+console.log(typeof arr)
+console.log(arr[3]) //how to access elements
+console.log(arr.length) // size of array
+arr[3] = 10 // changing value
+```
+> object
+
+> 4
+
+> 6
+
+## ARRAY METHODS
+- we can perform many operation on an array some of them are
