@@ -166,3 +166,52 @@ while(a > 6){
 }
 ```
 > 5
+
+## FUNCTIONS
+- a function is a block of code executing a specific commands which can be called multiple times withour rewriting the whole code again.
+```js
+function add(a,b){
+    return a+b
+}
+```
+- a function can also be written in the following way. this is called an arrow function
+```js
+const sum = (a,b) =>{
+    return a+b
+}
+```
+
+## STRINGS
+- a string is a collection of characters which include letters symbols as well as numbers
+- a "" or '' can be used to write a string
+```js
+let name = 'apple'
+console.log(name)
+console.log(name.length)
+```
+>apple
+
+>5
+- we can also access the characters of a string like arrays using indices
+- using template literal to write a variable in between a string
+```js
+let name = 'apple'
+console.log('my favourite fruit is ${name}')
+```
+> my favourite fruit is apple
+- some escape sequence characters are: '\n' , '\t' , '\r' etc.
+
+## STRING MANIPULATION METHODS
+- we can use some methods to get some information about the string or change comethign about the string\
+- strings are immutable
+- some examples are:
+    - string.length - __returns length__
+    - string.toUpperCase() - __changes all characters to upper case__
+    - string.toLowerCase() - __changes all characters to lower case__
+    - string.slice(x,y) - __slices the string from x to y excluding y__
+    - string.replace(a,b) - __replaces a with b__
+    - string.trim() - __removes white space from start and end__
+    - string.concat(a,b) - __adds b to last of a__
+
+[more string methods here](https://www.w3schools.com/js/js_string_methods.asp)
+
