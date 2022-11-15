@@ -215,3 +215,6 @@ console.log('my favourite fruit is ${name}')
 
 [more string methods here](https://www.w3schools.com/js/js_string_methods.asp)
 
+## ARRAYS
+- array is a data structure which holds multiple value even of different data types
+```js
