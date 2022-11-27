@@ -1,5 +1,4 @@
 # JavaScript-Tutorial
-## This tutorial follows the course from CWH
 
 
 ## PRINTING TO CONSOLE
@@ -232,4 +231,41 @@ arr[3] = 10 // changing value
 > 6
 
 ## ARRAY METHODS
-- we can perform many operation on an array some of them are
+- we can perform many operation on an array some of them are listed below
+    - to string method converts array to string
+    ```js
+    let arr=['a','b']
+    let b=arr.toString(arr) // b == "ab"
+    ```
+    - join method joins the ekements of the array with the character given as argument and returns the joined array as string
+    ```js
+    let arr[1,2,3,4]
+    let c = arr.join("-") // c == 1-2-3-4 type of c is string
+    ```
+    - pop method removes last element of an array and returns the popped element if assigned to a variable.
+    - push method adds a new element to the array and returns the new array length if assigned to a variable.
+    - shift method removes the first element of the array and returns the popped element if assigned to a variable.
+    - unshift adds an elments in front of the array and returns the new array length if assigned to a variable.
+    - delete operator deletes the element of an array at the given index however the length of array doesn not change
+    ```js
+    arr = [1,2,3,4,5,6]
+    delete arr[0] // arr = [ <1 empty item>,2,3,4,5,6]
+    ```
+    - concat method joins two or more arrays together and returns a new array
+    - sort method sorts the array alphabetically or lexicographically.
+    ```js
+    const arr = [12,43,23,33333,2]
+    arr.sort()
+    console.log(arr)
+    ```
+    > 12 2 23 33333 43
+    ```js
+    let comparator_fucntion = (a,b) =>{
+        a>b ? return true:return false;
+    }
+    arr.sort(comparator_function)
+    console.log(arr)
+    ```
+    > 2 12 23 43 33333
+    - reverse method reverses the given array
+    - splice 
